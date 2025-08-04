@@ -25,18 +25,25 @@ body {
       margin: 0;
     }
 
-    .poema {
+    nav a{
+      color: #5e5247;
+      text-decoration: none; 
+      font-size: 0.95rem;
+      gap: 30px;
+    }
+
+    .poemas {
       margin-bottom: 60px;
     }
 
-    .poema h2 {
-      font-size: 1.5rem;
+    .poemas h2 {
+      font-size: 1.3rem;
       font-weight: normal;
       margin-bottom: 10px;
       color: #5e5247;
     }
 
-    .poema p {
+    .poemas p {
       margin: 10px 0;
     }
 
@@ -46,3 +53,9 @@ body {
       color: #777;
       margin-top: 60px;
     }
+
+    @media (width < 600px){
+      .poemas{
+        text-align: center;
+      }
+    } 
